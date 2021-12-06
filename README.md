@@ -24,7 +24,7 @@ AND
 
 ```sh
 dependencies {
-    compile 'com.github.SandipLayek27:SuperLoader-master_android:4.7'
+    compile 'com.github.SandipLayek27:SuperLoader-master_android:4.9'
 }
 ```
 # ★ Use this to manifest.
@@ -56,7 +56,8 @@ dependencies {
 1. JSONObject request (Parameterized) with or without header passing.   [GET Method/POST Method] [Multiple header passing]
 2. JSONArray request (Parameterized) with or without header passing.    [GET Method/POST Method]
 3. JSONString request (Parameterized) with or without header passing.   [GET Method/POST Method]
-   ★(3.0) JSONObject request (Parameterized) with or without header passing Uncast HashMap. [GET Method/POST Method] [Multiple header passing]
+   ★(3.0) JSONObject request (Parameterized) with or without header passing Uncast HashMap. [POST Method] [Multiple header passing]
+   ★(3.1) JSONObject request (Request Type: JSONObject) with or without header passing. [POST Method] [Multiple header passing]
 4. Checking Internet connection.
 5. Validate Email address
 6. Convert String request to Object request.
